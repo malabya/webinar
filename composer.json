@@ -1,5 +1,5 @@
 {
-    "name": "drupal/webinar",
+    "name": "malabya/webinar",
     "description": "Provides an ability to add Webinars on a Drupal website.",
     "type": "drupal-recipe",
     "homepage": "https://www.drupal.org/project/webinar",
