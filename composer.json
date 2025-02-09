@@ -9,7 +9,6 @@
     },
     "minimum-stability": "dev",
     "require": {
-        "drupal/core": ">=10.3",
         "drupal/field_group": "^4.0@alpha",
         "drupal/pathauto": "^1.13"
     }
