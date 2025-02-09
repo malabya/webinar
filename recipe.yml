@@ -12,3 +12,17 @@ install:
   # Contrib
   - field_group
   - pathauto
+config:
+  strict:
+    - field.storage.node.field_additional_links
+    - field.storage.node.field_attachments
+    - field.storage.node.field_date
+    - field.storage.node.field_featured_image
+    - field.storage.node.field_feedback_link
+    - field.storage.node.field_registration_link
+    - field.storage.node.field_speaker_bio
+    - field.storage.node.field_speaker_name
+    - field.storage.node.field_webinar_description
+    - field.storage.node.field_speaker_picture
+  import:
+    pathauto: "*"

@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - core.entity_view_mode.node.teaser
-    - field.field.node.webinar.body
     - field.field.node.webinar.field_additional_links
     - field.field.node.webinar.field_attachments
     - field.field.node.webinar.field_date
@@ -13,6 +12,7 @@ dependencies:
     - field.field.node.webinar.field_speaker_bio
     - field.field.node.webinar.field_speaker_name
     - field.field.node.webinar.field_speaker_picture
+    - field.field.node.webinar.field_webinar_description
     - node.type.webinar
   module:
     - datetime
@@ -24,14 +24,6 @@ targetEntityType: node
 bundle: webinar
 mode: teaser
 content:
-  body:
-    type: text_summary_or_trimmed
-    label: hidden
-    settings:
-      trim_length: 600
-    third_party_settings: {  }
-    weight: 2
-    region: content
   field_date:
     type: datetime_default
     label: hidden
@@ -51,6 +43,14 @@ content:
         attribute: lazy
     third_party_settings: {  }
     weight: 0
+    region: content
+  field_webinar_description:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 2
     region: content
   links:
     settings: {  }
