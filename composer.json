@@ -10,7 +10,7 @@
     "minimum-stability": "dev",
     "require": {
         "drupal/core": ">=10.3",
-        "drupal/field_group": "^4.0@alpha",
+        "drupal/field_group": "^3.6",
         "drupal/pathauto": "^1.13"
     }
 }
