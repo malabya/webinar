@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: webinar
+label: Webinar
+type: 'canonical_entities:node'
+pattern: '/webinar/[node:title]'
+selection_criteria:
+  8a337897-3998-4c1d-bb92-0f9b62acba58:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: 8a337897-3998-4c1d-bb92-0f9b62acba58
+    context_mapping:
+      node: node
+    bundles:
+      webinar: webinar
+selection_logic: and
+weight: -5
+relationships: {  }

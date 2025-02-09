@@ -1,0 +1,16 @@
+{
+    "name": "drupal/webinar",
+    "description": "Provides an ability to add Webinars on a Drupal website.",
+    "type": "drupal-recipe",
+    "homepage": "https://www.drupal.org/project/webinar",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/webinar",
+        "source": "https://git.drupalcode.org/project/webinar"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "drupal/core": ">=10.3",
+        "drupal/field_group": "^4.0@alpha",
+        "drupal/pathauto": "^1.13"
+    }
+}
